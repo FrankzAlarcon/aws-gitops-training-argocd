@@ -14,7 +14,7 @@ image:
 # APPLICATION CONFIGURATION
 # ----------------------------------------------------------------------------
 app:
-  theme: green  # Options: orange, default, green, teal
+  theme: orange  # Options: orange, default, green, teal
   
   endpoints:
     catalog: http://catalog:80
@@ -56,7 +56,7 @@ resources:
 # ----------------------------------------------------------------------------
 autoscaling:
   enabled: true
-  minReplicas: 3
+  minReplicas: 1
   maxReplicas: 10
   targetCPUUtilizationPercentage: 80
 
